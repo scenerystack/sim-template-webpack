@@ -6,9 +6,9 @@ const __filename = fileURLToPath( import.meta.url );
 const __dirname = path.dirname( __filename );
 
 export default {
-  entry: './src/init.ts',
+  entry: './src/main.ts',
   output: {
-    filename: 'init.js',
+    filename: 'main.js',
     path: path.resolve( __dirname, 'dist' ),
     clean: true,
   },
